@@ -15,9 +15,15 @@ describe('browser', () => {
   tests.map(([method, matchingBrowsers]) => {
     const match = matchingBrowsers.indexOf(currentBrowser) > -1
 
+
     describe(method, () => {
       it(`should be ${match} on ${currentBrowser}`, () => {
-        expect(browser[method]()).toEqual(match)
+        const result = browser[method]()
+        if (result !== match) {
+          console.log('Here is the UA:', navigator.userAgent)
+        }
+
+        expect(result).toEqual(match)
       })
     })
   })
