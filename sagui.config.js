@@ -16,6 +16,8 @@ module.exports = {
   },
 
   karma: {
+    plugins: ['karma-sauce-launcher'],
+
     sauceLabs: {
       public: 'public',
       testName: 'klarna-credit-lib'
