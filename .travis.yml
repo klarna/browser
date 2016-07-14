@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- '4'
+before_script:
+- npm install
+script:
+  - BROWSER=Chrome npm test
+  - BROWSER='Mac Safari 9.0' npm test
+  - BROWSER='Mac Firefox 46.0' npm test
+  - BROWSER='IE 8' npm test
+  - BROWSER='IE 9' npm test
+  - BROWSER='IE 10' npm test
+  - BROWSER='IE 11' npm test
+  - BROWSER='Android 4.2' npm test
+  - BROWSER='Android 4.3' npm test
+  - BROWSER='Android 4.4' npm test
+  - BROWSER='Android 5.0' npm test
+  - BROWSER='Android 5.1' npm test
+  - BROWSER='iOS 8.0' npm test
+  - BROWSER='iOS 8.1' npm test
+  - BROWSER='iOS 9.2' npm test

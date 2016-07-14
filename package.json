@@ -1,0 +1,23 @@
+{
+  "name": "@klarna/browser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "browser.js",
+  "scripts": {
+    "build": "sagui build",
+    "develop": "sagui develop --port 3000",
+    "dist": "cross-env NODE_ENV=production sagui build --optimize",
+    "start": "npm run develop",
+    "test:coverage": "npm run test:unit -- --coverage",
+    "test:lint": "sagui lint",
+    "test:unit": "cross-env NODE_ENV=test sagui test",
+    "test:unit:watch": "npm run test:unit -- --watch",
+    "test": "npm run test:unit"
+  },
+  "author": "Juan Lulkin <maiz@lulk.in> (https://medium.com/@joaomilho/)",
+  "license": "ISC",
+  "devDependencies": {
+    "karma-sauce-launcher": "^1.0.0",
+    "sagui": "^6.3.2"
+  }
+}
