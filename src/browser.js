@@ -23,12 +23,11 @@ export const isIE8 = (userAgent = navigator.userAgent) =>
 export const isIE = (userAgent = navigator.userAgent) =>
   /^((?!opera).)*(msie|trident)+((?!opera).)*$/.test(userAgent.toLowerCase())
 
-export const isAndroidStock = (userAgent = navigator.userAgent) => {
+export const isAndroid4Stock = (userAgent = navigator.userAgent) => {
   const ua = userAgent.toLowerCase()
   return ua.indexOf('mozilla/5.0') > -1 &&
     ua.indexOf('android') > -1 &&
     ua.indexOf('applewebkit') > -1 &&
-    ua.indexOf('chrome') === -1 &&
     /version\/\d+\.\d+/.test(ua) && // http://stackoverflow.com/questions/24926221/distinguish-android-chrome-from-stock-browser-stock-browsers-user-agent-contai
     isIE(userAgent) === false // without this check, WinPhone is detected as Android Stock
 }

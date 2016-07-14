@@ -4,7 +4,7 @@ const tests = [
   ['isIOS', ['iOS 8.0', 'iOS 8.1', 'iOS 9.2']],
   ['isIE8', ['IE 8']],
   ['isIE', ['IE 8', 'IE 9', 'IE 10', 'IE 11']],
-  ['isAndroidStock', ['Android 4.3', 'Android 4.4', 'Android 5.0', 'Android 5.1']]
+  ['isAndroid4Stock', ['Android 4.2', 'Android 4.3', 'Android 4.4']]
 ]
 
 // isUIWebView ?
