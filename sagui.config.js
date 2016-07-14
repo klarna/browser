@@ -1,14 +1,8 @@
-/**
- * Sagui configuration object
- * see: http://sagui.js.org/
- */
 const webpack = require('webpack')
 
 const browserToUse = process.env.BROWSER
   ? process.env.BROWSER
   : 'PhantomJS'
-
-console.log('>>>', browserToUse)
 
 module.exports = {
   libraries: ['index'],
