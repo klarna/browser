@@ -44,14 +44,14 @@ module.exports = {
       'IE 8': {
         base: 'SauceLabs',
         browserName: 'internet explorer',
-        platform: 'Windows 7',
+        platform: 'Windows XP',
         version: '8.0'
       },
       'IE 9': {
         base: 'SauceLabs',
         browserName: 'internet explorer',
         platform: 'Windows 8',
-        version: '10.0'
+        version: '9.0'
       },
       'IE 10': {
         base: 'SauceLabs',
