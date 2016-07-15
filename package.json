@@ -2,7 +2,7 @@
   "name": "@klarna/browser",
   "version": "0.0.1",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "sagui build",
     "dist": "cross-env NODE_ENV=production sagui build --optimize",
