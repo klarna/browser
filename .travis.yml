@@ -12,6 +12,7 @@ env:
   - BROWSER='IE 9'
   - BROWSER='IE 10'
   - BROWSER='IE 11'
+  - BROWSER=Edge
   - BROWSER='Android 4.2'
   - BROWSER='Android 4.3'
   - BROWSER='Android 4.4'

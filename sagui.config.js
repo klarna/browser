@@ -44,7 +44,7 @@ module.exports = {
       'IE 9': {
         base: 'SauceLabs',
         browserName: 'internet explorer',
-        platform: 'Windows 8',
+        platform: 'Windows 7',
         version: '9.0'
       },
       'IE 10': {
@@ -58,6 +58,12 @@ module.exports = {
         browserName: 'internet explorer',
         platform: 'Windows 8.1',
         version: '11.0'
+      },
+      'Edge': {
+        base: 'SauceLabs',
+        browserName: 'microsoftedge',
+        platform: 'Windows 10',
+        version: '13'
       },
       'Android 4.2': {
         base: 'SauceLabs',
