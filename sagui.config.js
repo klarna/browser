@@ -21,8 +21,8 @@ module.exports = {
       testName: 'browser'
     },
 
-    captureTimeout: 1000 * 90,
-    browserNoActivityTimeout: 1000 * 80,
+    captureTimeout: 1000 * 60 * 2,
+    browserNoActivityTimeout: 1000 * 60 * 1.5,
 
     customLaunchers: {
       Chrome: {
@@ -44,7 +44,7 @@ module.exports = {
       'IE 9': {
         base: 'SauceLabs',
         browserName: 'internet explorer',
-        platform: 'Windows 7',
+        platform: 'Windows 8',
         version: '9.0'
       },
       'IE 10': {
