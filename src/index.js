@@ -1,2 +1,13 @@
-import * as browser from './browser'
-export default browser
+import {
+  isIOS,
+  isUIWebView,
+  isIE,
+  isAndroid4Stock
+} from './browser'
+
+export {
+  isIOS,
+  isUIWebView,
+  isIE,
+  isAndroid4Stock
+}
