@@ -9,6 +9,7 @@
     "test:coverage": "npm run test:unit -- --coverage",
     "test:lint": "sagui lint",
     "test:unit": "cross-env NODE_ENV=test sagui test",
+    "test:ci": "cross-env NODE_ENV=ci sagui test",
     "test:unit:watch": "npm run test:unit -- --watch",
     "test": "npm run test:unit"
   },

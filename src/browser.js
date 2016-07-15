@@ -17,9 +17,6 @@ export const isUIWebView = (userAgent = navigator.userAgent, webkit, standalone)
   return false
 }
 
-export const isIE8 = (userAgent = navigator.userAgent) =>
-  /^((?!opera|trident\/[5-7]).)*(msie 8|trident\/4)+((?!opera|trident\/[5-7]).)*$/.test(userAgent.toLowerCase())
-
 export const isIE = (userAgent = navigator.userAgent) =>
   /^((?!opera).)*(msie|trident)+((?!opera).)*$/.test(userAgent.toLowerCase())
 
