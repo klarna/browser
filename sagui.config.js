@@ -41,12 +41,6 @@ module.exports = {
         platform: 'OS X 10.11',
         version: '46.0'
       },
-      'IE 9': {
-        base: 'SauceLabs',
-        browserName: 'internet explorer',
-        platform: 'Windows 8',
-        version: '9.0'
-      },
       'IE 10': {
         base: 'SauceLabs',
         browserName: 'internet explorer',

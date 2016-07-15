@@ -1,5 +1,7 @@
 # Browser
 
+[![Build Status](https://travis-ci.org/klarna/browser.svg?branch=master)](https://travis-ci.org/klarna/browser)
+
 Just a couple of browser detection helpers.
 
 The motivation is to have these helpers tested on "actual" browsers, so we have more confidence that they work.
