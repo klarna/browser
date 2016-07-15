@@ -44,8 +44,8 @@ module.exports = {
       'IE 8': {
         base: 'SauceLabs',
         browserName: 'internet explorer',
-        platform: 'Windows 8',
-        version: '7.0'
+        platform: 'Windows 7',
+        version: '8.0'
       },
       'IE 9': {
         base: 'SauceLabs',
