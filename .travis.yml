@@ -4,14 +4,7 @@ node_js:
 before_script:
   - npm install
 script:
-  - >
-   n=0
-   until [ $n -ge 3 ]
-   do
-      npm run test:ci && break
-      n=$[$n+1]
-      sleep 60
-   done
+  - npm run test:ci
 env:
   - BROWSER=Chrome
   - BROWSER='Mac Safari 9.0'
