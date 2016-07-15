@@ -15,7 +15,6 @@ describe('browser', () => {
   tests.map(([method, matchingBrowsers]) => {
     const match = matchingBrowsers.indexOf(currentBrowser) > -1
 
-
     describe(method, () => {
       it(`should be ${match} on ${currentBrowser}`, () => {
         const result = browser[method]()
