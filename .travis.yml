@@ -9,7 +9,6 @@ env:
   - BROWSER=Chrome
   - BROWSER='Mac Safari 9.0'
   - BROWSER='Mac Firefox 46.0'
-  - BROWSER='IE 9'
   - BROWSER='IE 10'
   - BROWSER='IE 11'
   - BROWSER=Edge
