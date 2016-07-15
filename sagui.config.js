@@ -21,8 +21,8 @@ module.exports = {
       testName: 'browser'
     },
 
-    captureTimeout: 1000 * 40,
-    browserNoActivityTimeout: 1000 * 30,
+    captureTimeout: 1000 * 90,
+    browserNoActivityTimeout: 1000 * 80,
 
     customLaunchers: {
       Chrome: {
